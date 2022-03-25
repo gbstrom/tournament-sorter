@@ -1,0 +1,20 @@
+.submitButton {
+  background: white;
+  border: 1px solid #DDD;
+  height: 50px;
+  display: block;
+  font-size: 14px;
+  width: 150px;
+}
+
+.globalWrapper {
+  margin: 30px;
+}
+
+.inputBox {
+  width: 500px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: initial;
+}

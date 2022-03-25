@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <title>Tournament Sorter</title>
+</head>
+<body>
+
+<script src="js/scripts.js"></script>
+
+<div class="globalWrapper">
+  <h1>Tournament Sorter</h1>
+<form name='inputForm'>
+    <p>Contestant Names (comma separated, please!):<br>
+        <textarea type = 'text' name = 'name' id = 'name' class = "inputBox" value = 'Greg'></textarea>
+        <p><input type = 'submit' class = "submitButton" onclick='produceTeams(); return false'></p> 
+    </p>
+</form>
+<br>
+<h2 id="outputHeading"></h2>
+<p id='day1'></p>
+<p id='day2'></p>
+<p id='day3'></p>
+<p id='day4'></p>
+</div>
+</body>
+</html>

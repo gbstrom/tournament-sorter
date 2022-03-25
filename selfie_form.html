@@ -1,0 +1,18 @@
+<script>
+    function check()
+    {
+        document.getElementById('f1').innerHTML = document.myform.name.value;
+    }
+</script>
+
+
+
+
+<form name='myform'>
+    <p>What is your name, please?
+        <input type = 'text' name = 'name' value = 'Greg'>
+        <p><input type = 'submit' onclick='check(); return false'></p> 
+    </p>
+</form>
+<p>Submit the form, yadda yadda:</p>
+<p id='f1'></p>
