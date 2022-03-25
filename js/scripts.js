@@ -183,9 +183,9 @@ function produceTeams() {
       day1team4 = [nameArray[9], nameArray[10], nameArray[11], nameArray[12]]
       case14day1 = {team1: day1team1, team2: day1team2, team3: day1team3, team4: day1team4}
 
-      day2team1 = [nameArray[0], nameArray[3], nameArray[6], nameArray[8]] 
+      day2team1 = [nameArray[0], nameArray[3], nameArray[6]]
       day2team2 = [nameArray[1], nameArray[4], nameArray[7], nameArray[11]]
-      day2team3 = [nameArray[2], nameArray[9], nameArray[12]]
+      day2team3 = [nameArray[2], nameArray[9], nameArray[12], nameArray[8]]
       day2team4 = [nameArray[5], nameArray[10], nameArray[13]]
       case14day2 = {team1: day2team1, team2: day2team2, team3: day2team3, team4: day2team4}
       
